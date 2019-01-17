@@ -1,0 +1,21 @@
+:root {
+    --margin-list-vertical: 5px;
+}
+
+.todo-item {
+    /* display: inline-block; */
+    background-color: var(--background-color2);
+    list-style: none;
+    padding: 10px;
+    margin-top: var(--margin-list-vertical);
+    border-radius: 15px;
+    width: 100%;
+    margin-left: -35px;
+    font-size: 1.2em;
+
+}
+
+.todo-item:hover {
+    font-size: 1.7em;
+    cursor: pointer;
+}

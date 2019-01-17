@@ -1,0 +1,11 @@
+.todo-input {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: var(--font-default, sans-serif);
+    font-size: var(--todo-font-size);
+    border-radius: 8px;
+    /* background-color: var(--background-color); */
+    background-color: rgb(241, 233, 233);
+    /* overflow: hidden; */
+}

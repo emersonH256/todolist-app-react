@@ -1,0 +1,53 @@
+:root {
+    --background-color: #c76c06;
+    --background-color2: #201c29;
+    --font-color-title: #fff;
+    --font-default: 'Ubuntu';
+    --todo-font-size: 1.6em;
+
+    --todo-padding-width: 15px; 
+    --todo-padding-heigth: 15px; 
+    --todo-width: 350px;
+    
+}
+
+@font-face {
+    font-family: var(--font-default);
+    src: url(./fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+.todo-app {
+    /* display: flex; 
+    flex-direction: column;
+    align-items: center; */
+    background-color: var(--background-color);
+
+    border-radius: 15px;
+    color: var(--font-color-title);
+    font-family: var(--font-default, sans-serif);
+    box-shadow: rgb(16, 14, 23) 0px 0px 5rem;
+    padding: var(--todo-padding-heigth) var(--todo-padding-width);
+    width: var(--todo-width);
+}
+
+.todo-app-title {
+    text-align: center;
+}
+
+
+/* .todo-app-prancheta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+} */
+.todo-app-prancheta-img {
+    position: relative;
+    top: -190px;
+    /* height: 50%; */
+    margin-bottom: -290px;
+
+    width: 100%;
+
+
+}
